@@ -35,7 +35,7 @@ export default function ProfileSideBar({ handleLogout }) {
 			<IconButton
 				className="bi bi-door-closed"
 				text="Logout"
-				onclick={handleLogout}
+				onClick={handleLogout}
 			/>
 			<Button className="rounded-pill w-100 mb-3" onClick={handleShow}>
 				Tweet
